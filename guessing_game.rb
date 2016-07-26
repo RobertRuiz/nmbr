@@ -40,11 +40,23 @@ elsif user_picked > mac_picked
   puts "Your guess is high, please guess again"
 elsif user_picked == mac_picked
   puts "You are correct, great guess, book your trip to Vegas immediatedly"
+    break
 end
 
 6 [ ] After 5 incorrect guesses, the program should tell you that you lose.
 Game plan:
-Need to create a variable, name it count and another
+Need to create a variable, name it count,
+count = 0
+
+have it increase after each guess
+count += 1
+
+and another if then statement
+if count > 4
+  puts "Your crystal ball is foggy, you lose"
+end
+
+This would likely need to go above the comparison loop ?
 
 [ ] Your code should use at least two methods. NOTE this doesn't say in a class --
 but if you feel like there is a good data+behavior approach, go for it.
