@@ -31,5 +31,25 @@ elsif user_picked > mac_picked
   puts "Your guess is high, please guess again"
 end
 
+5 [ ] If your guess is correct, the program should tell you that you win and then quit.
+Game plan:
+Add another comparison using ==
+if user_picked < mac_picked
+  puts "Your guess is low, please guess again"
+elsif user_picked > mac_picked
+  puts "Your guess is high, please guess again"
+elsif user_picked == mac_picked
+  puts "You are correct, great guess, book your trip to Vegas immediatedly"
+end
+
+6 [ ] After 5 incorrect guesses, the program should tell you that you lose.
+Game plan:
+Need to create a variable, name it count and another
+
+[ ] Your code should use at least two methods. NOTE this doesn't say in a class --
+but if you feel like there is a good data+behavior approach, go for it.
+Game plan:
+
+[ ] This game should be run from the command line by typing "ruby guessing_game.rb"
 
 =end
