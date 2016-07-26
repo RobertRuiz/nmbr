@@ -20,4 +20,16 @@ if user_picked < mac_picked
   puts "Your guess is low, please guess again"
 end
 
+4 [ ] If the guess is greater than the program's number,
+it should tell you that you were high and let you guess again.
+Game plan:
+Add an elsif to the above
+
+if user_picked < mac_picked
+  puts "Your guess is low, please guess again"
+elsif user_picked > mac_picked
+  puts "Your guess is high, please guess again"
+end
+
+
 =end
